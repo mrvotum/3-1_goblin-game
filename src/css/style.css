@@ -1,0 +1,24 @@
+.gameField{
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.gameCell{
+  border: 2px solid rgb(14, 3, 56);
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  background-color: rgba(14, 3, 56, 0.377);
+}
+
+#goblin{
+  background: url(/src/img/goblin.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 25px auto;
+}
+#goblin:hover{
+  cursor:  url(/src/img/hummer.svg), crosshair;
+}
